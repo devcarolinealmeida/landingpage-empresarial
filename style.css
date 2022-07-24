@@ -2,6 +2,7 @@
 - Desktop: 1440px */
 
 @import url(assets/menu.css);
+@import url(assets/primeira-sessao.css);
 
 :root {
     /*cores*/
@@ -12,9 +13,10 @@
     --cinza-claro: hsl(0, 0%, 75%);
     --cinza: hsl(240, 75%, 98%);
 
+
     /*tipologia*/
-    --fonte-titulo:'Raleway', sans-serif;
-    --fonte-body:'Open Sans', sans-serif;
+    --fonte-titulo:'Raleway';
+    --fonte-body:'Open Sans';
 }
 
 body {

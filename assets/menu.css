@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    margin: 3em 3em;
+    margin: 3em;
 }
 
 .logo {
