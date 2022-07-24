@@ -1,0 +1,22 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 3em;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__item {
+    margin-left: 2.5em;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: var(--azul-desaturado);
+}
