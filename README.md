@@ -4,8 +4,8 @@ Projeto baseado no challenge "Fylo landing page with two column layout" do Front
 
 Definindo as etapas do projeto:
 
-- [ ] Pegar informaçõs do layout base
-- [ ] Analisar style-guide e criar css root
+- [X] Pegar informaçõs do layout base
+- [X] Analisar style-guide e criar css root
 
 - [ ] Menu
     - [ ] HTML
