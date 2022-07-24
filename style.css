@@ -1,0 +1,26 @@
+/*- Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+    /*cores*/
+    --azul-escuro: hsl(243, 87%, 12%);
+    --azul-desaturado: hsl(238, 22%,44%);
+    --azul: hsl(224, 93%, 58%);
+    --verde-claro: hsl(170, 45%, 43%);
+    --cinza-claro: hsl(0, 0%, 75%);
+    --cinza: hsl(240, 75%, 98%);
+
+    /*tipologia*/
+    --fonte-titulo:'Raleway', sans-serif;
+    --fonte-body:'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-body);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
