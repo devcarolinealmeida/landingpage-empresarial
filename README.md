@@ -12,8 +12,8 @@ Definindo as etapas do projeto:
     - [X] CSS
     - [ ] Mobile
 - [ ] Primeira section
-    - [ ] HTML
-    - [ ] CSS
+    - [X] HTML
+    - [X] CSS
 - [ ] Segunda section
     - [ ] HTML
     - [ ] CSS
