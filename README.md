@@ -8,8 +8,9 @@ Definindo as etapas do projeto:
 - [X] Analisar style-guide e criar css root
 
 - [ ] Menu
-    - [ ] HTML
-    - [ ] CSS
+    - [X] HTML
+    - [X] CSS
+    - [ ] Mobile
 - [ ] Primeira section
     - [ ] HTML
     - [ ] CSS
@@ -23,5 +24,5 @@ Definindo as etapas do projeto:
     - [ ] HTML
     - [ ] CSS
 
-- [ ] Mobile
+- [ ] Analisar versão Mobile
 - [ ] Testes
