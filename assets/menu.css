@@ -20,3 +20,7 @@
     text-decoration: none;
     color: var(--azul-desaturado);
 }
+
+.menu__link:hover {
+    color: var(--azul-escuro);
+}
