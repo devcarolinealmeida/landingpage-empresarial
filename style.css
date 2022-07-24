@@ -1,6 +1,8 @@
 /*- Mobile: 375px
 - Desktop: 1440px */
 
+@import url(/assets/menu.css);
+
 :root {
     /*cores*/
     --azul-escuro: hsl(243, 87%, 12%);
@@ -23,4 +25,8 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+
+ol, ul {
+	list-style: none;
 }
