@@ -1,0 +1,72 @@
+.container__segunda-sessao {
+    background-image: url(../img/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.segunda-sessao__colunas {
+    display: flex;
+    background: var(--cinza);
+    background-position: center;
+    background-size: cover;
+}
+
+.segunda-sessao__conteudo {
+    margin: 4em 3em;
+}
+
+.card {
+    background: var(--branco);
+    border-radius: 5px;
+    padding: 1.5em 2.2em;
+    width: 50%;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.card__texto::before {
+    content: url(../img/icon-quotes.svg);
+    display: block;
+    margin-bottom: .8em;
+}
+
+.card__texto {
+    color: var(--azul-escuro);
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.card__pessoa {
+    display: flex;
+    align-items: center;
+}
+
+.card__pessoa__imagem {
+    border-radius: 100px;
+    width: 80px;
+}
+.card__infos {
+    margin-left: 1em;
+}
+
+.card__infos__nome {
+    color: var(--azul-escuro);
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+}
+
+.card__infos__cargo {
+    display: inline-block;
+    color: var(--azul-escuro);
+    font-size: 0.7em;
+}
+
+
+
+.segunda-sessao__imagem {
+    height: 50vh;
+    right: 0;
+    margin: 4em 3em;
+}

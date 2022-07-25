@@ -3,6 +3,7 @@
 
 @import url(assets/menu.css);
 @import url(assets/primeira-sessao.css);
+@import url(assets/segunda-sessao.css);
 
 :root {
     /*cores*/
@@ -12,6 +13,7 @@
     --verde-claro: hsl(170, 45%, 43%);
     --cinza-claro: hsl(0, 0%, 75%);
     --cinza: hsl(240, 75%, 98%);
+    --branco: #ffff;
 
 
     /*tipologia*/
