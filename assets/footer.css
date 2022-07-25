@@ -1,0 +1,54 @@
+.rodape {
+    background: var(--azul-escuro);
+    padding: 5em 3em 2em 3em;
+}
+
+.rodape__logo {
+    filter: brightness(0) invert(1);
+    height: 50px;
+}
+
+.rodape__info {
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: space-between;
+}
+
+.rodape__lista {
+    margin-right: 12em;
+}
+
+.institucional__contato-telefone, .institucional__contato-email {
+    color: var(--cinza);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    font-style: normal;  
+}
+
+.institucional__contato-telefone::before {
+    content: url(../img/icon-phone.svg);
+    margin-right: 1em;
+}
+
+.institucional__contato-email::before {
+    content: url(../img/icon-email.svg);
+    margin-right: 1em;
+}
+
+.lista__link {
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.rodape__lista-social {
+    filter: brightness(0) invert(1);
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-social__link {
+    margin-left: 1em;
+}
