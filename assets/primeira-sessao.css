@@ -38,8 +38,9 @@
 
 .input-email {
     padding: .8em;
-    flex: 3;
+    width: 70%;
     border: 1px solid var(--cinza-claro);
+    border-radius: 2px;
     margin-right: 1em;
 }
 
@@ -51,7 +52,7 @@
 .botao {
     background-color: var(--azul);
     padding: .8em;
-    flex: 1;
+    width: 20%;
     text-decoration: none;
     color: var(--cinza);
     border-radius: 2px;

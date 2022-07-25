@@ -4,6 +4,7 @@
 @import url(assets/menu.css);
 @import url(assets/primeira-sessao.css);
 @import url(assets/segunda-sessao.css);
+@import url(assets/banner.css);
 
 :root {
     /*cores*/
@@ -14,6 +15,8 @@
     --cinza-claro: hsl(0, 0%, 75%);
     --cinza: #f8f8fe;
     --branco: #ffff;
+
+    --sombra: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
 
 
     /*tipologia*/

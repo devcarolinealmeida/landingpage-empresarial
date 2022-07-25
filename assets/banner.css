@@ -1,0 +1,44 @@
+.banner {
+    display: flex;
+    background: var(--azul-desaturado);
+    padding: 6em 3em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__conteudo {
+    width: 40%;
+}
+
+.banner__titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--cinza);
+    font-size: 1.8em;
+}
+
+.banner__texto {
+    color: var(--cinza);
+    font-size: .9em;
+    line-height: 1.5em;
+    margin-top: 2em;
+}
+
+.banner__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.input-banner {
+    padding: .8em;
+    border: 1px solid var(--cinza-claro);
+    box-shadow: var(--sombra);
+    border-radius: 2px;
+}
+
+.botao-banner {
+    width: 40%;
+    margin-top: 1.5em;
+    box-shadow: var(--sombra);
+}
