@@ -18,8 +18,8 @@ Definindo as etapas do projeto:
     - [X] HTML
     - [X] CSS
 - [ ] Banner com input
-    - [ ] HTML
-    - [ ] CSS
+    - [X] HTML
+    - [X] CSS
 - [ ] Footer
     - [ ] HTML
     - [ ] CSS
