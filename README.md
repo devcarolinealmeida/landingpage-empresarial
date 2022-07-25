@@ -14,15 +14,19 @@ Definindo as etapas do projeto:
 - [ ] Primeira section
     - [X] HTML
     - [X] CSS
+    - [ ] Mobile
 - [ ] Segunda section
     - [X] HTML
     - [X] CSS
+    - [ ] Mobile
 - [ ] Banner com input
     - [X] HTML
     - [X] CSS
+    - [ ] Mobile
 - [ ] Footer
     - [X] HTML
     - [X] CSS
+    - [ ] Mobile
 
-- [ ] Analisar versão Mobile
+- [ ] Validação dos campos de email
 - [ ] Testes
