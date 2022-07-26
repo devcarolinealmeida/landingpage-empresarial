@@ -11,100 +11,103 @@
     <script src="https://kit.fontawesome.com/58e9722e32.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<header class="cabecalho">
-    <img class="logo" src="img/logo.svg" alt="logo Fylo">
-    <nav class="menu">
-        <ul class="menu__lista">
-            <li class="menu__item">
-                <a class="menu__link" href="#">Features</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Team</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Sign In</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section class="container">
-    <div class="container__duas-colunas">
-        <div class="container__conteudo">
-            <h2 class="container__titulo">All your files in one secure location, accessible anywhere.</h2>
-            <p class="container__texto">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-            <div class="container__input">
-                <input type="mail" placeholder="Enter your email..." class="input-email">
-                <a class="botao" href="#">Get Started</a>
-            </div>
-        </div>
-        <img class="container__imagem" src="img/illustration-1.svg" alt="Ilustração de equipe organizando arquivos">
-    </div>
-</section>
-<section>
-    <div class="segunda-sessao">
-        <div class="segunda-sessao__fundo">
-            <div class="segunda-sessao__conteudo">
-                <div class="segunda-sessao__textos">
-                    <h2 class="container__titulo">Stay productive, wherever you are</h2>
-                    <p class="container__texto">Never let location be an issue when accessing your files. Fyle has you covered for all your file storage needs.</p>
-                    <p class="container__texto">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-                    <a class="segunda-sessao__link" href="#">See how Fylo works</a>
-                </div>
-                <div class="card">
-                    <blockquote class="card__conteudo">
-                        <p class="card__texto">Fylo has improved our team productivity by an order og magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-                        <div class="card__pessoa">
-                            <img class="card__pessoa__imagem" src="img/avatar-testimonial.jpg" alt="Kyle Burton">
-                            <div class="card__infos">
-                                <p class="card__infos__nome">Kyle Burton</p>
-                                <p class="card__infos__cargo">Founder & CEO, Huddle</p>
-                            </div>
-                        </div>
-                    </blockquote>
-                </div>
-            </div>
-            <img class="segunda-sessao__imagem" src="img/illustration-2.svg" alt="Ilustração de equipe">
-        </div>
-    </div>
-</section>
-<section class="banner">
-    <div class="banner__conteudo">
-        <h3 class="banner__titulo">Get early access today</h3>
-        <p class="banner__texto">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-    </div>
-    <div class="banner__inputs">
-        <input class="input-banner" type="email" placeholder="email@example.com" aria-placeholder="Preencha seu email">
-        <a href="#" class="botao botao-banner">Get Started For Free</a>
-    </div>
-</section>
-<footer class="rodape">
-    <img class="rodape__logo" src="img/logo.svg" alt="Logo Fylo">
-    <div class="rodape__info">
-        <address class="rodape__lista">
-            <article class="institucional__contato">
-                <a href="tel:+39 5555-2751" class="institucional__contato-telefone">Phone: +39 5555-2751</a>
-                <a href="mailto:contato@fylo.com" class="institucional__contato-email">contato@fylo.com</a>
-            </article>
-        </address>
-        <ul class="rodape__lista">
-            <li><a class="lista__link" href="#">About Us</a></li>
-            <li><a class="lista__link" href="#">Jobs</a></li>
-            <li><a class="lista__link" href="#">Press</a></li>
-            <li><a class="lista__link" href="#">Blog</a></li>
-        </ul>
-        <ul class="rodape__lista">
-            <li><a class="lista__link" href="#">Contact Us</a></li>
-            <li><a class="lista__link" href="#">Terms</a></li>
-            <li><a class="lista__link" href="#">Privacy</a></li>
-        </ul>
-        <ul class="rodape__lista-social">
-            <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/fb-black-circle.png" alt="Ícone Facebook"></a></li>
-            <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/inst-black-circle.png" alt="Ícone Instagram"></a></li>
-            <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/ytube-black-circle.png" alt="Ícone Youtube"></a></li>
-        </ul>
-    </div>
-</footer>
 <body>
-    
+    <header class="cabecalho">
+        <img class="logo" src="img/logo.svg" alt="logo Fylo">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Features</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Team</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Sign In</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="container__duas-colunas">
+            <div class="container__conteudo">
+                <h2 class="container__titulo">All your files in one secure location, accessible anywhere.</h2>
+                <p class="container__texto">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+                <div class="container__input">
+                    <input type="mail" name="email" id="email" placeholder="Enter your email..." class="input-email">
+                    <button class="botao" id="btn-email" href="#">Get Started</button>
+                </div>
+                <!-- <span  class="invisivel">Este campo não está válido</span> -->
+                <span id="mensagem-erro" class="invisivel"></span>
+            </div>
+            <img class="container__imagem" src="img/illustration-1.svg" alt="Ilustração de equipe organizando arquivos">
+        </div>
+    </section>
+    <section>
+        <div class="segunda-sessao">
+            <div class="segunda-sessao__fundo">
+                <div class="segunda-sessao__conteudo">
+                    <div class="segunda-sessao__textos">
+                        <h2 class="container__titulo">Stay productive, wherever you are</h2>
+                        <p class="container__texto">Never let location be an issue when accessing your files. Fyle has you covered for all your file storage needs.</p>
+                        <p class="container__texto">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                        <a class="segunda-sessao__link" href="#">See how Fylo works</a>
+                    </div>
+                    <div class="card">
+                        <blockquote class="card__conteudo">
+                            <p class="card__texto">Fylo has improved our team productivity by an order og magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                            <div class="card__pessoa">
+                                <img class="card__pessoa__imagem" src="img/avatar-testimonial.jpg" alt="Kyle Burton">
+                                <div class="card__infos">
+                                    <p class="card__infos__nome">Kyle Burton</p>
+                                    <p class="card__infos__cargo">Founder & CEO, Huddle</p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <img class="segunda-sessao__imagem" src="img/illustration-2.svg" alt="Ilustração de equipe">
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner__conteudo">
+            <h3 class="banner__titulo">Get early access today</h3>
+            <p class="banner__texto">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        <div class="banner__inputs">
+            <input class="input-banner" type="email" placeholder="email@example.com" aria-placeholder="Preencha seu email">
+            <a href="#" class="botao botao-banner">Get Started For Free</a>
+        </div>
+    </section>
+    <footer class="rodape">
+        <img class="rodape__logo" src="img/logo.svg" alt="Logo Fylo">
+        <div class="rodape__info">
+            <address class="rodape__lista">
+                <article class="institucional__contato">
+                    <a href="tel:+39 5555-2751" class="institucional__contato-telefone">Phone: +39 5555-2751</a>
+                    <a href="mailto:contato@fylo.com" class="institucional__contato-email">contato@fylo.com</a>
+                </article>
+            </address>
+            <ul class="rodape__lista">
+                <li><a class="lista__link" href="#">About Us</a></li>
+                <li><a class="lista__link" href="#">Jobs</a></li>
+                <li><a class="lista__link" href="#">Press</a></li>
+                <li><a class="lista__link" href="#">Blog</a></li>
+            </ul>
+            <ul class="rodape__lista">
+                <li><a class="lista__link" href="#">Contact Us</a></li>
+                <li><a class="lista__link" href="#">Terms</a></li>
+                <li><a class="lista__link" href="#">Privacy</a></li>
+            </ul>
+            <ul class="rodape__lista-social">
+                <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/fb-black-circle.png" alt="Ícone Facebook"></a></li>
+                <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/inst-black-circle.png" alt="Ícone Instagram"></a></li>
+                <li><a class="lista-social__link" href="#"><img class="lista-social__icone" src="img/ytube-black-circle.png" alt="Ícone Youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

@@ -49,6 +49,32 @@
     font-family: var(--fonte-body);
 }
 
+/*---- msgs erro ----- */
+ 
+#mensagem-erro {
+    font-size: 0.7em;
+    padding-top: .3em
+}
+
+.invisivel {
+    display: none;
+}
+
+.visivel-erro {
+    color: var(--cor-erro);
+    display: block;
+}
+
+.input-mensagem-erro {
+    border: 1px solid var(--cor-erro);
+}
+
+.visivel-sucesso {
+    color: var(--verde-claro);
+    display: block;
+}
+/*--------------------- */
+
 .botao {
     background-color: var(--azul);
     padding: .8em;
@@ -58,6 +84,8 @@
     border-radius: 2px;
     font-size: .8em;
     text-align: center;
+    border: none;
+    cursor: pointer;
 }
 
 .botao:hover {
