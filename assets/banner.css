@@ -42,3 +42,9 @@
     margin-top: 1.5em;
     box-shadow: var(--sombra);
 }
+
+#mensagem-erro-banner {
+    font-size: 0.7em;
+    padding-top: .3em;
+    position: absolute;
+}
