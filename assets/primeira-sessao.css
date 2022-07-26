@@ -53,7 +53,8 @@
  
 #mensagem-erro {
     font-size: 0.7em;
-    padding-top: .3em
+    padding-top: .3em;
+    position: absolute;
 }
 
 .invisivel {
@@ -62,7 +63,7 @@
 
 .visivel-erro {
     color: var(--cor-erro);
-    display: block;
+    display: flex;
 }
 
 .input-mensagem-erro {
@@ -71,7 +72,7 @@
 
 .visivel-sucesso {
     color: var(--verde-claro);
-    display: block;
+    display: flex;
 }
 /*--------------------- */
 
