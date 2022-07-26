@@ -5,14 +5,21 @@ const inputEmail = document.querySelectorAll("[data-email]")
 const msgErro = document.querySelectorAll("[data-msg]")
 
 
+btnEmail.forEach((botao) => {
+    botao.addEventListener("click", (evento) => {
+        evento.preventDefault()
+        verificaInput(evento.target.dataset.btn)
+    })
+})
+
 function verificaInput(posicao){
-    if (posicao === "1") {
-        let i = 0;
+    if (posicao === "0") {
+        let i = posicao;
         if (inputEmail[i].value == "") {
             msgErro[i].classList.toggle("invisivel")
-            msgErro[i].classList.toggle("visivel-erro")
+            msgErro[i].classList.add("visivel-erro")
             msgErro[i].classList.remove("visivel-sucesso")
-            inputEmail[i].classList.toggle("input-mensagem-erro")
+            inputEmail[i].classList.add("input-mensagem-erro")
             msgErro[i].textContent = "Please enter your email"
         } else if (!validaEmail(inputEmail[i].value) == true) {
             msgErro[i].classList.toggle("invisivel")
@@ -26,12 +33,12 @@ function verificaInput(posicao){
             msgErro[i].textContent = "Thanks for contacting us! We will be in touch with you shortly."
         }
     } else {
-        let i = 1;
+        let i = posicao;
         if (inputEmail[i].value == "") {
             msgErro[i].classList.toggle("invisivel")
-            msgErro[i].classList.toggle("visivel-erro")
+            msgErro[i].classList.add("visivel-erro")
             msgErro[i].classList.remove("visivel-sucesso")
-            inputEmail[i].classList.toggle("input-mensagem-erro")
+            inputEmail[i].classList.add("input-mensagem-erro")
             msgErro[i].textContent = "Please enter your email"
         } else if (!validaEmail(inputEmail[i].value) == true) {
             msgErro[i].classList.toggle("invisivel")
@@ -47,18 +54,11 @@ function verificaInput(posicao){
     }
 }
 
-btnEmail.forEach((botao) => {
-    botao.addEventListener("click", (evento) => {
-        evento.preventDefault()
-        verificaInput(evento.target.dataset.btn)
-    })
-})
-
-
 function validaEmail(email) {
     let emailPattern = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
     return emailPattern.test(email)
 }
+
 
 
 // //valida email versao anterior
