@@ -88,7 +88,7 @@
 
 /* smartphone */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 640px) {
     .segunda-sessao {
         flex-direction: column;
         background: url(../img/bg-curve-mobile.svg) repeat-x center top;
@@ -124,10 +124,21 @@
         height: 30vh;
         margin: 1em auto;
         right: 20%;
-
     }
     .card {
         width: 75%;
     }
+}
 
+/* tablet */
+
+@media screen and (max-width: 820px) {
+    .segunda-sessao__imagem {
+        height: 20vh;
+        right: 0;
+        margin: 6em 3em;
+    }
+    .segunda-sessao__fundo {
+        width: 100%;
+    }
 }

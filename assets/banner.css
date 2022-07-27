@@ -50,7 +50,7 @@
 
 /* smartphone */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 640px) {
     .banner {
         display: flex;
         flex-direction: column;
@@ -62,6 +62,9 @@
         width: 90%;
         text-align: center;
     }
+    .banner__titulo {
+        font-size: 1.3em;
+    }
     .banner__inputs {
         margin-top: 2em;
         width: 90%;
@@ -69,5 +72,13 @@
     .botao-banner {
         width: 100%;
         margin-top: 1.5em;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width: 820px) {
+    .botao-banner {
+        width: 100%;
     }
 }

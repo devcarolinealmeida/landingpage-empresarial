@@ -98,7 +98,7 @@
 
 /* smartphone */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 640px) {
     .container {
         margin: 3rem 1.5rem;
     }
@@ -137,5 +137,22 @@
     }
     #mensagem-erro {
         margin-left: .5em;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width: 820px) {
+    .container__input {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-email {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .botao {
+        width: 98%;
     }
 }
