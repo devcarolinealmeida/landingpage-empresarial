@@ -40,7 +40,6 @@
 .botao-banner {
     width: 40%;
     margin-top: 1.5em;
-    box-shadow: var(--sombra);
 }
 
 #mensagem-erro-banner {

@@ -88,6 +88,7 @@
     border: none;
     cursor: pointer;
     box-sizing: border-box;
+    box-shadow: var(--sombra);
 }
 
 .botao:hover {
