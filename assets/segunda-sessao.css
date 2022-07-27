@@ -107,11 +107,13 @@
     }
     .segunda-sessao__conteudo {
         position: relative;
-        top: 160px;
-        margin: 4em 1.8em;
+        top: 350px;
+        margin: 4em 1em;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        padding-bottom: 11em;
     }
     .segunda-sessao__titulo {
         font-size: 1em;
@@ -124,13 +126,14 @@
     }
     .segunda-sessao__imagem {
         position: absolute;
-        
+        width: 80%;
+        left: 0;
         display: block;
         margin: 0 0;
         top:600px;
     }
     .card {
-        width: 75%;
+        width: 60%;
     }
 }
 
