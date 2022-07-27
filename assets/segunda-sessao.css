@@ -97,6 +97,7 @@
     .segunda-sessao__fundo {
         flex-direction: column;
         margin-top: 2em;
+        padding-bottom: 6em;
     }
     
     .segunda-sessao__conteudo {

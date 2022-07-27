@@ -87,6 +87,7 @@
     text-align: center;
     border: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .botao:hover {
@@ -109,17 +110,31 @@
         width: 100%;
         text-align: center;
         position: relative;
-        top:150px;
+        top:200px;
     }
     .container__titulo {
         line-height: 1.5em;
         font-size: 1.5em;
     }
+    .container__input {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-email {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .botao {
+        width: 97%;
+    }
     .container__imagem {
         position: absolute;
         width: 60%;
         display: block;
-
-        
+        right: 20%;
+    }
+    #mensagem-erro {
+        margin-left: .5em;
     }
 }
