@@ -93,3 +93,33 @@
     background-color: var(--azul-escuro);
     color: var(--cinza);
 }
+
+/* smartphone */
+
+@media screen and (max-width: 390px) {
+    .container {
+        margin: 3rem 1.5rem;
+    }
+    .container__duas-colunas {
+        flex-direction: column;
+        align-content: center;
+    }
+    .container__conteudo {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top:150px;
+    }
+    .container__titulo {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+    .container__imagem {
+        position: absolute;
+        width: 60%;
+        display: block;
+
+        
+    }
+}

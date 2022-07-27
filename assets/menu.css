@@ -24,3 +24,17 @@
 .menu__link:hover {
     color: var(--azul-escuro);
 }
+
+/* smartphone */
+
+@media screen and (max-width: 390px) {
+    .cabecalho {
+        margin: 1.5em;
+    }
+    .logo {
+        height: 1.5em;
+    }
+    .menu__link {
+        font-size: .7em;
+    }
+}

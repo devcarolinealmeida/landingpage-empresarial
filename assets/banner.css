@@ -48,3 +48,28 @@
     padding-top: .3em;
     position: absolute;
 }
+
+/* smartphone */
+
+@media screen and (max-width: 390px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content:space-between;
+        padding: 4em 1.5em;
+        margin-top: 3em;
+    }
+    .banner__conteudo {
+        width: 90%;
+        text-align: center;
+    }
+    .banner__inputs {
+        margin-top: 2em;
+        width: 90%;
+    }
+    .botao-banner {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+}

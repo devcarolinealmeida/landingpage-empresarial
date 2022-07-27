@@ -48,13 +48,10 @@
     flex-direction: row;
 }
 
-.lista-social__link {
-    margin-left: 1em;
-}
-
 .lista-social__icone {
     width: 40px;
     filter: invert(1);
+    margin: 0 1em;
 }
 
 .lista-social__icone:hover {
@@ -63,5 +60,38 @@
 
 .institucional__contato-telefone:hover, .institucional__contato-email:hover, .lista__link:hover{
     color: var(--azul-desaturado);
+}
+
+/* smartphone */
+
+@media screen and (max-width: 390px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3em;
+    }
+    .rodape__logo {
+        width: 70%;
+    }
+    .rodape__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rodape__lista {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+    .rodape__lista-social {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+    .lista-none {
+        display: none;
+    }
 }
 

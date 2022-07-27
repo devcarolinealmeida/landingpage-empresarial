@@ -18,10 +18,15 @@
     margin-bottom: 2.8em;
 }
 
+.segunda-sessao__titulo {
+    font-family: var(--fonte-titulo);
+    line-height: 1.5em;
+    color: var(--azul-escuro);
+    font-size: 2.1em;
+}
+
 .segunda-sessao__link {
     color: var(--verde-claro);
-    text-decoration: none;
-    border-bottom: 1px solid var(--verde-claro);
 }
 
 .segunda-sessao__link::after {
@@ -79,4 +84,45 @@
     height: 50vh;
     right: 0;
     margin: 6em 3em;
+}
+
+/* smartphone */
+
+@media screen and (max-width: 390px) {
+    .segunda-sessao {
+        flex-direction: column;
+        background: url(../img/bg-curve-mobile.svg) repeat-x center top;
+        margin-top: 12em;
+    }
+    .segunda-sessao__fundo {
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+    .segunda-sessao__conteudo {
+        position: relative;
+        top: 120px;
+        margin: 4em 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .segunda-sessao__titulo {
+        font-size: 1em;
+        text-align: center;
+    }
+    .segunda-sessao__link {
+        font-size: .8em;
+        text-align: center;
+        display: block;
+    }
+    .segunda-sessao__imagem {
+        position: absolute;
+        height: 20vh;
+        margin: 0 auto;
+    }
+    .card {
+        width: 75%;
+    }
+
 }
