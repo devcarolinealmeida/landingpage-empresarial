@@ -10,23 +10,28 @@ Definindo as etapas do projeto:
 - [ ] Menu
     - [X] HTML
     - [X] CSS
-    - [ ] Mobile
+    - [X] Smartphone
+    - [ ] Tablet
 - [ ] Primeira section
     - [X] HTML
     - [X] CSS
-    - [ ] Mobile
+    - [X] Smartphone
+    - [ ] Tablet
 - [ ] Segunda section
     - [X] HTML
     - [X] CSS
-    - [ ] Mobile
+    - [X] Smartphone
+    - [ ] Tablet
 - [ ] Banner com input
     - [X] HTML
     - [X] CSS
-    - [ ] Mobile
+    - [X] Smartphone
+    - [ ] Tablet
 - [ ] Footer
     - [X] HTML
     - [X] CSS
-    - [ ] Mobile
+    - [X] Smartphone
+    - [ ] Tablet
 
-- [ ] Validação dos campos de email
+- [X] Validação dos campos de email
 - [ ] Testes
