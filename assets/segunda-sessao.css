@@ -132,13 +132,16 @@
 
 /* tablet */
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px) {
     .segunda-sessao__imagem {
-        height: 20vh;
+        height: 40vh;
         right: 0;
         margin: 6em 3em;
     }
     .segunda-sessao__fundo {
         width: 100%;
+    }
+    .segunda-sessao__textos {
+        width: 80%;
     }
 }

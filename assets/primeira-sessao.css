@@ -142,7 +142,7 @@
 
 /* tablet */
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px) {
     .container__input {
         flex-direction: column;
         justify-content: center;
@@ -153,6 +153,9 @@
         margin-bottom: 1em;
     }
     .botao {
-        width: 98%;
+        width: 95%;
+    }
+    #mensagem-erro {
+        margin-left: .8em;
     }
 }
