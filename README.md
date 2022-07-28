@@ -7,31 +7,31 @@ Definindo as etapas do projeto:
 - [X] Pegar informaçõs do layout base
 - [X] Analisar style-guide e criar css root
 
-- [ ] Menu
+- [X] Menu
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
-    - [ ] Tablet
-- [ ] Primeira section
+    - [X] Tablet
+- [X] Primeira section
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
-    - [ ] Tablet
-- [ ] Segunda section
+    - [X] Tablet
+- [X] Segunda section
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
-    - [ ] Tablet
-- [ ] Banner com input
+    - [X] Tablet
+- [X] Banner com input
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
-    - [ ] Tablet
-- [ ] Footer
+    - [X] Tablet
+- [X] Footer
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
-    - [ ] Tablet
+    - [X] Tablet
 
 - [X] Validação dos campos de email
-- [ ] Testes
+- [X] Testes
