@@ -2,7 +2,6 @@
     display: flex;
     justify-content:space-between;
     margin: 3em;
-
 }
 
 .logo {
@@ -71,11 +70,6 @@
         border-bottom: 1px solid var(--cinza);
         font-size: 1.2em;
     }
-   
 }
 
-/* tablet */
 
-@media screen and (max-width: 1024px) {
-
-}
