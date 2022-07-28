@@ -1,7 +1,8 @@
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin: 3em;
+
 }
 
 .logo {
@@ -16,7 +17,11 @@
     margin-left: 2.5em;
 }
 
-.menu__link{
+.menu__checkbox, .cabecalho__menu-hamburguer {
+    display: none;
+}
+
+.menu__link {
     text-decoration: none;
     color: var(--azul-desaturado);
 }
@@ -30,12 +35,39 @@
 @media screen and (max-width: 640px) {
     .cabecalho {
         margin: 1.5em;
+        position: relative;
     }
     .logo {
-        width: 70px;
+        width: 90px;
     }
     .menu__link {
         font-size: .7em;
+        color: var(--cinza);
+    }
+    .cabecalho__menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        background-image: url("../img/Menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+    .menu__lista {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 150%;
+        right: 0;
+        width: 50vw;
+        z-index: 1000;
+    }
+    .menu__checkbox:checked ~ .menu__lista {
+        display: block;
+    }
+    .menu__item {
+        padding: 1em;
+        background-color: var(--azul-desaturado);
+        border-bottom: 1px solid var(--cinza);
     }
 }
 
