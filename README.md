@@ -1,37 +1,37 @@
-# [landingpage-empresarial](https://devcarolinealmeida.github.io/landingpage-empresarial/)
+# [Landing page Business](https://devcarolinealmeida.github.io/landingpage-empresarial/)
 
-> Projeto baseado no challenge ["Fylo landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5) do Frontend Mentor.
+> Design inspiration ["Fylo landing page with two column layout"](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5) Frontend Mentor.
 
 
-:hourglass_flowing_sand: Realizado em 4 dias.
+:hourglass_flowing_sand: Deadline: 4 days
 
-:zap: Meus principais desafios foram:
-* Criar uma função para validar o campo de email, mostrando mensagens de erro e sucesso, de forma que pudesse reutiliza-la em qualquer outra sessão do site;
-* Alinhar elementos na versão responsiva
+:zap: My main challenges were:
+* Make a function with JavaScrip to validate a email input, whith the sucessiful and error messages, so that I could reuse it in any other session of the site
+* Align elements using display flex
 
 ---
 
-Definindo as etapas do projeto:
+ :bookmark: Project to-do list:
 
-- [X] Pegar informaçõs do layout base
-- [X] Analisar style-guide e criar css root
+- [X] Read the design information 
+- [X] Create the style-guide and css root
 
-- [X] Menu
+- [X] Nav
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
     - [X] Tablet
-- [X] Primeira section
+- [X] First section
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
     - [X] Tablet
-- [X] Segunda section
+- [X] Second section
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
     - [X] Tablet
-- [X] Banner com input
+- [X] Banner with email input
     - [X] HTML
     - [X] CSS
     - [X] Smartphone
@@ -42,5 +42,5 @@ Definindo as etapas do projeto:
     - [X] Smartphone
     - [X] Tablet
 
-- [X] Validação dos campos de email
-- [X] Testes
+- [X] Validation for the email input, whith the sucessiful and error messages
+- [X] Final tests
